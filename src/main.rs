@@ -1,4 +1,5 @@
 mod sqrt;
+mod sqrt2;
 mod strlen;
 
 fn main() {
@@ -7,4 +8,7 @@ fn main() {
 
     let val = 3.14;
     println!("Square root of 3.14 is {}", sqrt::c_sqrt(val));
+
+    let val = 2.0;
+    println!("Square root of 2.0 is {}", sqrt2::c_sqrt2(val));
 }
